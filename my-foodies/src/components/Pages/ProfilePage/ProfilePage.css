@@ -1,0 +1,80 @@
+.past-orders-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .user-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .user-details {
+    color: #333;
+  }
+  
+  .edit-profile-button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-card {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .restaurant-info {
+    margin-bottom: 10px;
+  }
+  
+  .order-delivered, .total-paid {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .order-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .order-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .reorder-button, .help-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reorder-button {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .help-button {
+    background-color: #dddddd;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .order-card {
+      margin: 10px;
+    }
+  
+    .edit-profile-button, .reorder-button, .help-button {
+      padding: 10px;
+    }
+  }
+  
